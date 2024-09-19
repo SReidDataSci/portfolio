@@ -4937,6 +4937,28 @@ fieldset:disabled .btn {
   }
 }
 
+.header-2 .text-black {
+  word-wrap: break-word; /* Ensure long words break and wrap */
+}
+
+.header-2 .lead {
+  font-size: 1.25rem; /* Adjust font size as needed */
+  line-height: 1.6; /* Improve readability */
+}
+
+@media (max-width: 768px) {
+  .header-2 .lead {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-2 .lead {
+    font-size: 0.875rem; /* Further adjust font size for very small screens */
+  }
+}
+
+
 @media (min-width: 768px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
