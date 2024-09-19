@@ -5268,7 +5268,7 @@ fieldset:disabled .btn {
 }
 
 .flip-card-back {
-  background-color: #007bff;
+  background-color: #24DFE5;
   color: white;
   transform: rotateY(180deg);
 }
