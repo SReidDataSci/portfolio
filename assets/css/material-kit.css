@@ -27548,6 +27548,12 @@ span.flatpickr-weekday {
   font-size: 2.5rem;
 }
 
+.work-text{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
 /* Values;
  *
  */
