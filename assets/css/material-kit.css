@@ -4766,7 +4766,8 @@ fieldset:disabled .btn {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  padding: 0.75rem 1rem;
+  height: 60px;
 }
 
 .navbar>.container,
@@ -4789,6 +4790,12 @@ fieldset:disabled .btn {
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   white-space: nowrap;
+}
+
+.navbar-brand img {
+  height: 60px;
+  max-height: 100%;
+  object-fit: contain;
 }
 
 .navbar-brand:hover,
