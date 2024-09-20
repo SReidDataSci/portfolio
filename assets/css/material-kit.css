@@ -5283,9 +5283,6 @@ fieldset:disabled .btn {
   border: 1px solid #ddd;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #f8f9fa;
 }
 
@@ -5293,6 +5290,8 @@ fieldset:disabled .btn {
   background-color: #24DFE5;
   color: white;
   transform: rotateY(180deg);
+  padding: 20px;
+  display: block;
 }
 
 .flip-card-back h5 {
@@ -5300,7 +5299,8 @@ fieldset:disabled .btn {
 }
 
 .flip-card-back p {
-  margin-top: 0; 
+  margin-top: 0;
+  line-height: 1.5; 
 }
 
 /* Rotate animation */
