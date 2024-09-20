@@ -5295,6 +5295,14 @@ fieldset:disabled .btn {
   transform: rotateY(180deg);
 }
 
+.flip-card-back h5 {
+  margin-bottom: 10px; 
+}
+
+.flip-card-back p {
+  margin-top: 0; 
+}
+
 /* Rotate animation */
 @keyframes rotate {
   from {
