@@ -81,11 +81,44 @@
 </nav>
 <!-- End Navbar -->
 
+<style>
+  /* Ensure html and body take full height */
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  /* Ensure body content takes full height, minus the navbar height */
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Navbar height (you already have a navbar of 60px) */
+  .navbar {
+    height: 120px;
+  }
+
+  /* Ensure iframe takes the remaining space */
+  iframe {
+    flex-grow: 1;
+    width: 100%;
+    height: calc(100% - 60px); /* Subtract navbar height */
+    border: none; /* Optional: Removes the border */
+  }
+</style>
+
 </head>
 
-<body class="index-page bg-gray-200">
+<body>
+
+
+  <!-- Full-page iframe -->
+  <iframe src="Inflation.html"></iframe>
   
   
+
 
 
  
